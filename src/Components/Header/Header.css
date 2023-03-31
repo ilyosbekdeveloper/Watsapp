@@ -1,0 +1,198 @@
+/* roots */
+:root{
+    --header-bg: #085e54;
+    --header-h1: #fff;
+    --header-span: #fff;
+
+    /* history */
+    --history-p: #fff;
+}
+
+.main.dark{
+    --header-bg: #132027;
+    --header-h1: #fff;
+    --header-span: #fff;
+
+    /* history */
+    --history-p: #fff;
+}
+
+@media screen and (max-width: 460px) {
+    .header{
+        background: var(--header-bg);
+        overflow: hidden;
+    }
+    .headerTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headerTop h1{
+        font-size: 26px;
+        color: var(--header-h1);
+        font-weight: lighter;
+        padding: 10px 0;
+    }
+    .headerIcons{
+        display: flex;
+        align-items: center;
+    }
+    .headerIcons span{
+        color: var(--header-span);
+    }
+    .headerIcons span:first-child{
+        padding-right: 16px;
+    }
+
+    /* histories */
+    .top{
+        padding: .60rem 0 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 115%;
+    }
+    .history{
+        width: 55px;
+        height: 60px;
+        position: relative;
+    }
+    .history p{
+        color: var(--history-p);
+        font-size: 8px;
+    }
+    .history img{
+        width: 100% !important;
+        background-size: cover;
+        border: 3px solid #00BFA5;
+        border-radius: 50%;
+        padding: 1px;
+    }
+    .history:first-child img{
+        border: none;
+        padding: 0;
+        border-radius: 0;
+    }
+    .history:nth-child(2) img{
+        border-top-color: #FFFFFF33;
+        border-left-color: #FFFFFF33;
+    }
+    .history:last-child{
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .history:last-child img{
+        width: 100% !important;
+        height: 55px !important;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .imgDiv{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+    }
+    .imgDiv span{
+        color: #444;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .header{
+        background: var(--header-bg);
+        overflow: hidden;
+    }
+    .headerTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headerTop h1{
+        font-size: 26px;
+        color: var(--header-h1);
+        font-weight: lighter;
+        padding: 10px 0;
+    }
+    .headerIcons{
+        display: flex;
+        align-items: center;
+    }
+    .headerIcons span{
+        color: var(--header-span);
+    }
+    .headerIcons span:first-child{
+        padding-right: 16px;
+    }
+
+    /* histories */
+    .top{
+        padding: .60rem 0 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 115%;
+    }
+    .history{
+        width: 55px;
+        height: 60px;
+        position: relative;
+    }
+    .history p{
+        color: var(--history-p);
+        font-size: 8px;
+    }
+    .history img{
+        width: 100% !important;
+        background-size: cover;
+        border: 3px solid #00BFA5;
+        border-radius: 50%;
+        padding: 1px;
+    }
+    .history:first-child img{
+        border: none;
+        padding: 0;
+        border-radius: 0;
+    }
+    .history:nth-child(2) img{
+        border-top-color: #FFFFFF33;
+        border-left-color: #FFFFFF33;
+    }
+    .history:last-child{
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .history:last-child img{
+        width: 100% !important;
+        height: 55px !important;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .imgDiv{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+    }
+    .imgDiv span{
+        color: #444;
+        font-size: 12px;
+    }
+}
+.container{
+    padding: 0 1rem;
+}

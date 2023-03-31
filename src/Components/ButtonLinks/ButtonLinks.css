@@ -1,0 +1,74 @@
+/* rooots */
+:root{
+    --mes-color: #389c0e;
+    --b-color: #4E4E4E;
+    --border: #929090a3;
+    --btn-bg: #fff;
+
+}
+
+.main.dark{
+    --mes-color: #389c0e;
+    --b-color: #ffffff;
+    --border: ##132027;
+    --btn-bg: #132027;
+}
+
+@media screen and (max-width: 460px) {
+    .message{
+        color: var(--mes-color);
+        display: block;
+        text-align: center;
+        padding: 2px 12px;
+    }
+    .b{
+        color: var(--b-color);
+        display: block;
+        text-align: center;
+        padding: 2px 15px;
+    }
+    .btn span{
+        color: var(--b-color);
+        font-size: 12px;
+    }
+    .btn:first-child span{
+        color: var(--mes-color);
+    }
+    .buttonSection{
+        background-color: var(--btn-bg);
+        justify-content: space-around;
+        border-top: 2px solid;
+        border-top-color: var(--border);
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .message{
+        color: var(--mes-color);
+        display: block;
+        text-align: center;
+        padding: 2px 12px;
+    }
+    .b{
+        color: var(--b-color);
+        display: block;
+        text-align: center;
+        padding: 2px 15px;
+    }
+    .btn span{
+        color: var(--b-color);
+        font-size: 12px;
+    }
+    .btn:first-child span{
+        color: var(--mes-color);
+    }
+    .buttonSection{
+        background-color: var(--btn-bg);
+        justify-content: space-around;
+        border-top: 2px solid;
+        border-top-color: var(--border);
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}

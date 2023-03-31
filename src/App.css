@@ -1,0 +1,35 @@
+:root{
+  --theme-mode-btn-bg: #000;
+  --theme-mode-btn-color: #ffffff;
+  --mode-div:#ffffff;
+}
+
+.main.dark{
+  --theme-mode-btn-bg: #151515bb;
+  --theme-mode-btn-color: #e9e3e3;
+  --mode-div:#1a1111;
+}
+
+.themeModeBTn{
+  background: var(--theme-mode-btn-bg);
+  color: var(--theme-mode-btn-color);
+  border: 2px solid #0b8a6d;
+  outline: none;
+  padding: 6px 10px;
+  border-radius: 10px 15px 10px 20px;
+}
+.modeDiv{
+  background: var(--mode-div);
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.225);
+  margin-bottom: 1rem;
+}
+
+.App{
+  width: 500px;
+  margin: auto;
+}
